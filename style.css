@@ -1,0 +1,66 @@
+
+.color{
+    color: #49C628;
+    
+}
+
+.btn-color{
+    border: 1px solid #49C628;
+    background-color: black;
+    color : #49C628;
+}
+
+.border-dark{
+    border: 1px solid black;
+}
+
+.gradient{
+    /* background-color: #8BC6EC;
+    background-image: linear-gradient(156deg, #8BC6EC 0%, #9599E2 100%); */
+
+    background-image: linear-gradient( 135deg, #70F570 10%, #49C628 100%);
+    
+}
+
+.addborder{
+    border: 1px solid #49C628;
+    color : #49C628;
+}
+
+.icon-icon{
+   font-size: 100px;
+}
+
+.icon-icon1{
+    font-size: 90px;
+ }
+
+ .icon-icon3{
+    font-size: 90px;
+ }
+
+ input:focus, select:focus{
+    box-shadow: none !important;
+    border: 1px solid rgb(183, 181, 181) !important;
+    transition: 1tas ease-in-out;
+ }
+
+
+ @media (max-width: 576px) {
+    #task-to-do,
+    #task-in-progress,
+    #task-completed {
+      margin-left: 1rem !important;
+      margin-right: 1rem !important; 
+    }
+
+    .about{
+        text-align: center !important;
+    }
+  }
+  
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
